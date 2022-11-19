@@ -389,8 +389,14 @@
     margin: 0px 3.5px;
   }
   
-  @media(max-width:767px) {
+  @media(max-width: 767px) {
     html {
       font-size: 14px;
+    }
+  }
+
+  @media(max-width: 785px) {
+    .accordion .accordion-item .accordion-item-header span {
+      display: none;
     }
   }
